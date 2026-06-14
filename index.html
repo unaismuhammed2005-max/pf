@@ -88,9 +88,23 @@ ul{
     font-weight:bold;
 }
 
-.project{
-    margin-bottom:20px;
+
+.project-img{
+    width:100%;
+    max-width:700px;
+    height:auto;
+    display:block;
+    margin:0 auto 15px;
+    border-radius:10px;
+    border:2px solid #4da6ff;
+    transition:0.3s;
 }
+
+.project-img:hover{
+    transform:scale(1.02);
+}
+```
+
 
 .contact a{
     color:#4da6ff;
@@ -153,7 +167,7 @@ footer{
         <section>
             <h2>Technical Skills</h2>
 
-            ```html
+            
 <div class="skills">
     <span class="skill">🐍 Python</span>
     <span class="skill">💻 C Programming</span>
@@ -166,16 +180,21 @@ footer{
     <span class="skill">📑 Excel</span>
     <span class="skill">🔗 GitHub</span>
 </div>
-```
+
 
         </section>
 
-        ```html
+        
 <section>
     <h2>🚀 Projects</h2>
 
     <div class="project">
+        <img src="images/object-detection.jpg"
+             alt="Real-Time Object Detection System"
+             class="project-img">
+
         <h3>🎯 Real-Time Object Detection System</h3>
+
         <p>
             Developed an AI-powered object detection system using
             computer vision techniques to identify and track objects
@@ -184,14 +203,19 @@ footer{
     </div>
 
     <div class="project">
+        <img src="images/ai-automation.jpg"
+             alt="AI Tools and Automation"
+             class="project-img">
+
         <h3>⚡ AI Tools and Automation</h3>
+
         <p>
             Explored and implemented AI-powered tools to automate
             workflows and improve productivity.
         </p>
     </div>
 </section>
-```
+
 
 
         <section>
